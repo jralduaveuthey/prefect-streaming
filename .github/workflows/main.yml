@@ -1,9 +1,10 @@
 name: Real-time streaming Prefect flow on AWS ECS
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+#   push:
+#     branches:
+#       - main
 
 env:
   PROJECT: realtime-poc
